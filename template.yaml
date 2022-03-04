@@ -2,14 +2,14 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   name: react-ssr-template
-  title: React SSR Template
-  description: Create a website powered with Next.js
+  title: My custom template
+  description: Create a custom utility
   tags:
     - recommended
     - react
 spec:
-  owner: web@example.com
-  type: website
+  owner: enver@example.com
+  type: utility
   parameters:
     - title: Provide some simple information
       required:
