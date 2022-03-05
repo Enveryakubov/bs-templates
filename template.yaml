@@ -66,7 +66,7 @@ spec:
       input:
         allowedHosts: ['github.com']
         description: This is ${{ parameters.component_id }}
-        repoUrl: Enveryakubov/${{ parameters.repoUrl }}
+        repoUrl: https://github.com/Enveryakubov/ ${{ parameters.repoUrl }}
 
     - id: register
       name: Register
