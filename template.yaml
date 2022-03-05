@@ -43,8 +43,7 @@ spec:
           ui:field: RepoUrlPicker
           ui:options:
             allowedHosts:
-              - 'github.com/Enveryakubov'
-              - github.com
+              - github.com//Enver
               - gitlab.com
   steps:
     - id: template
@@ -66,7 +65,7 @@ spec:
       input:
         allowedHosts: ['github.com']
         description: This is ${{ parameters.component_id }}
-        repoUrl: https://github.com/Enveryakubov/ ${{ parameters.repoUrl }}
+        repoUrl: ${{ parameters.repoUrl }}
 
     - id: register
       name: Register
