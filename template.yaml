@@ -42,6 +42,7 @@ spec:
           type: string
           ui:field: RepoUrlPicker
           ui:options:
+            - github.com/Enveryakubov
             allowedHosts:
               - github.com/Enveryakubov
   steps:
