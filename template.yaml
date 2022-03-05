@@ -42,9 +42,10 @@ spec:
           type: string
           ui:field: RepoUrlPicker
           ui:options:
-            - github.com/Enveryakubov
             allowedHosts:
               - github.com/Enveryakubov
+              - github.com
+              - gitlab.com
   steps:
     - id: template
       name: Fetch Skeleton + Template
