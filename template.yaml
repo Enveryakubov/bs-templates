@@ -44,7 +44,7 @@ spec:
           ui:options:
             allowedHosts:
               - github.com
-                target: 'https://github.com/Enveryakubov'
+                url: https://github.com/Enveryakubov/
   steps:
     - id: template
       name: Fetch Skeleton + Template
