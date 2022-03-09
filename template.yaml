@@ -43,7 +43,8 @@ spec:
           ui:field: RepoUrlPicker
           ui:options:
             allowedHosts:
-              - github.com/Enver
+              - github.com
+                target: https://github.com/Enveryakubov
   steps:
     - id: template
       name: Fetch Skeleton + Template
